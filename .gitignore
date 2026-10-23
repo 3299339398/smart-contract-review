@@ -1,0 +1,38 @@
+# Python 相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv/
+venv/
+venv*/
+
+# 向量数据库缓存
+chroma/
+faiss_index/
+rerank_cache/
+cache/
+backend-python/data/*.sqlite*
+
+# IDE 配置
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# 程序安装目录（防止再次上传IDE安装包）
+DataGrip*/
+jbr/
+
+# Local dependencies, generated files and private configuration
+node_modules/
+dist/
+*.tsbuildinfo
+.claude/
+.jbeval/
+.env.*
+!.env.example
+backend-python/data/
+backend-python/eval_report.json

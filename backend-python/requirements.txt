@@ -1,0 +1,43 @@
+# Web Framework
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# Agent Framework
+langgraph>=0.2.0,<0.3.0
+langgraph-checkpoint-sqlite==2.0.11
+aiosqlite>=0.20,<0.22
+
+# LLM
+openai>=1.50.0
+
+# Embeddings
+sentence-transformers>=3.0.0
+
+# Document Parsing
+PyMuPDF>=1.24.0
+python-docx>=1.1.0
+
+# Database
+sqlalchemy[asyncio]>=2.0.36
+aiomysql>=0.2.0
+alembic>=1.14.0
+
+# Redis
+redis[hiredis]>=5.2.0
+
+# Auth
+python-jose[cryptography]>=3.3.0
+bcrypt>=4.2.0
+
+# Vector Store
+chromadb>=0.5.0
+
+# RAG
+rank-bm25>=0.2.2
+jieba>=0.42.1
+
+# Config
+pydantic-settings>=2.5.0
+
+# MCP
+mcp>=1.0.0
